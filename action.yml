@@ -1,4 +1,4 @@
-name: 'Azure Container Registry Build Action by MDPNetTeam'
+name: 'Azure Container Registry Build by MDPNetTeam'
 branding:
   icon: 'upload-cloud'
   color: 'red'
