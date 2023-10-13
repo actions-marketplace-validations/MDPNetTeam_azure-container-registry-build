@@ -1,7 +1,7 @@
-name: 'MDPNetTeam, Azure Container Registry Build'
+name: 'Azure Container Registry Build Action by MDPNetTeam'
 branding:
   icon: 'upload-cloud'
-  color: 'blue'
+  color: 'red'
 author: 'Clark159'
 description: 'GitHub Action for building Azure Container Registry'
 
