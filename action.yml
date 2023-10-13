@@ -1,0 +1,18 @@
+name: 'MDPNetTeam, Azure Container Registry Build'
+branding:
+  icon: 'upload-cloud'
+  color: 'blue'
+author: 'Clark159'
+description: 'GitHub Action for building Azure Container Registry'
+
+runs:
+  using: 'composite'
+  steps:
+  
+  - name: 'Login Azure CLI'
+    uses: azure/login@v1
+    with:
+      creds: ${{ secrets.AZURE_CREDENTIALS }}
+      
+  - name: 'Checkout GitHub Repository'
+    uses: actions/checkout@v4 
